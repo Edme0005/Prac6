@@ -30,9 +30,9 @@ Create new testing file to allow structured testing to be performed.
 
 Test Process
 ------------
-# flip bit.
-# if test does not fail, flip another bit.
-# if test fails, record the bitstring that failed
-# attempt to reproduce it.
-# document dump from testframework, the bitstring that failed, and whether it was reproducable.
-# continue flipping bits.
+- flip bit.
+- if test does not fail, flip another bit.
+- if test fails, record the bitstring that failed
+- attempt to reproduce it.
+- document dump from testframework, the bitstring that failed, and whether it was reproducable.
+- continue flipping bits.
