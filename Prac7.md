@@ -36,3 +36,9 @@ Test Process
 - attempt to reproduce it.
 - document dump from testframework, the bitstring that failed, and whether it was reproducable.
 - continue flipping bits.
+
+Potential modifications
+-----------------------
+May flip many bits, not just 1 at a time.
+May restart if does not fail (until all combinations are finished.)
+  Then move onto next level etc.
