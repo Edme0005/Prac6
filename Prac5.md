@@ -24,6 +24,7 @@ As testing continues the testing will be addapted to have a more systematic appr
 The necessary changes
 ---------------------
 Config - add options to allow fuzz testing to be set.
+
 packetOkOverlay - add overloaded method for performing fuzz testing if set in config.
 
 Create new testing file to allow structured testing to be performed.
@@ -40,5 +41,6 @@ Test Process
 Potential modifications
 -----------------------
 May flip many bits, not just 1 at a time.
+
 May restart if does not fail (until all combinations are finished.)
   Then move onto next level etc.
